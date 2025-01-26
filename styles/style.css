@@ -194,3 +194,43 @@ main{
     flex-direction: column;
     gap: 24px;
 }
+/* ============= next-target section begins here ========== */
+.next-target{
+    margin-top: 111px;
+}
+.next-target-heading{
+    margin-bottom: 48px;
+}
+.next-heading-title{
+    margin-bottom: 24px;
+}
+.next-target-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-content{
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+}
+.next-img-box{
+    height: 108px;
+}
+.next-img-box img{
+    height: 100%;
+    width: 100%;
+}
+.next-content .section-subtitle{
+    margin-bottom: 8px;
+}
+.next-content .section-description{
+    margin-bottom: 24px;
+}
+.next-content .next-target-info a{
+    color: #0D1321;
+    font-weight: bold;
+    font-size: 16px;
+}
