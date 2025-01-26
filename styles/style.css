@@ -17,14 +17,19 @@
 .primary-btn{
 
 }
+.margin-b{
+    margin-bottom: 32px;
+}
+.text-center{
+    text-align: center;
+}
 .section-title{
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
 }
 .section-description{
-    margin-bottom: 32px;
-    text-align: center;
+    /* margin-bottom: 32px; */
     font-size: 16px;
     color: #0D1321;
 }
@@ -117,6 +122,9 @@ main{
     width: 40%;
 }
 /* inspiration part styles begins  */
+.inspiration{
+    margin-top: 90px;
+}
 .inspiration-header{
     text-align: center;
     margin-bottom: 48px;
@@ -126,11 +134,63 @@ main{
 }
 .video{
     text-align: center;
-    width: 1076px;
-    550px
 }
 .iframe-video{
-    border: 1px solid lightcoral;
+    border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 25px;
     padding: 32px;    
+}
+/* current target style part  */
+.current-target{
+    margin-top: 151px;
+}
+.current-target-header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.current-target-title{
+    margin-bottom: 24px;
+}
+.current-contents{
+    display: flex;
+    gap: 24px;
+}
+.current-contents a{
+    color: rgba(13, 19, 33, 1);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.current-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.current-html{
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.language-img{
+    width: 56px;
+}
+.current-css{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.current-js{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
