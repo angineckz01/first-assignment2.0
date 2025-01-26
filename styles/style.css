@@ -116,3 +116,21 @@ main{
 .web-dev-img{
     width: 40%;
 }
+/* inspiration part styles begins  */
+.inspiration-header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.inspiration .section-title{
+    margin-bottom: 24px;
+}
+.video{
+    text-align: center;
+    width: 1076px;
+    550px
+}
+.iframe-video{
+    border: 1px solid lightcoral;
+    border-radius: 25px;
+    padding: 32px;    
+}
