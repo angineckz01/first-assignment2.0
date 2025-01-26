@@ -17,7 +17,21 @@
 .primary-btn{
 
 }
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.section-description{
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 16px;
+    color: #0D1321;
+}
 /* header section - navbar part*/
+.header-part{
+    margin-bottom: 74px;
+}
 .nav-bar{
     display: flex;
     align-items: center;
@@ -54,12 +68,6 @@
     font-size: 48px;
     text-align: center;
 }
-.section-description{
-    margin-bottom: 32px;
-    text-align: center;
-    font-size: 16px;
-    color: #0D1321;
-}
 .banner .section-btn{
     padding: 16px 20px;
     color: white;
@@ -67,4 +75,44 @@
     border-radius: 8px;
     font-size: 20px;
     font-weight: 600;
+}
+/*  ============= main part begins from here =============== */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* web-dev section styles */
+.web-dev{
+    padding: 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+}
+.web-dev-heading{
+    text-align: center;
+}
+.web-title{
+    margin-bottom: 24px;
+}
+.web-dev-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.web-dev-content{
+    padding: 48px;
+    display: flex;
+    gap: 90px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+.web-dev-content .section-subtitle{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+}
+.web-dev-info{
+    width: 60%;
+}
+.web-dev-img{
+    width: 40%;
 }
